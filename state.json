@@ -1,0 +1,456 @@
+{
+  "users": {
+    "nbtnate2": {
+      "balance": 1.2,
+      "totalRecharge": 125.0,
+      "pwd_hash": "scrypt:32768:8:1$4e5oOT7ofbFWyDj9$5088cfd0b0be27067bba9a74815e457406291dd9a8f7e404132267205b4a12532aa8b8e6cb7757fef69a3c50100d9c7fa8a8eea8f9f298a66536ea7f035a36f9",
+      "email": "ronzlp1577@gmail.com"
+    },
+    "nbtnate23": {
+      "balance": 150.0,
+      "totalRecharge": 150.0,
+      "pwd_hash": "scrypt:32768:8:1$nvKywFH3N2KQQAF5$d36345a986187df44b5fbc4a31d0420a92da1afdc1eb4d92ebcd6f2b954441b7238c98d5b846120a6f170c80e179c49b34cb1940ebe0c9c2e60dc6f4abebde88",
+      "email": "ronzlp15727@gmail.com"
+    },
+    "nbtnate": {
+      "balance": 0.0,
+      "totalRecharge": 0.0,
+      "pwd_hash": "scrypt:32768:8:1$QBURHcxDgrQAbIRg$22784d28c2d74a090603347c910bf55be007ac1dc29b1f56f886c9b26f6fae631e926b55a41a3187d418b1a347852c54888b5844dd88b09d12f5f8ad111c0dc5",
+      "email": ""
+    }
+  },
+  "stock": [
+    {
+      "id": 35,
+      "bin": "435983",
+      "brand": "VISA",
+      "bank": "U.S. BANK NATIONAL ASSOCIATION ND",
+      "base": "BLACKJACK_BASE",
+      "refundable": true,
+      "price": 25.0,
+      "full_info": "4359830007057259|10|25|123|Ken Morse|1308 Westside Drive|Polk City|IA|50226|US|5152299123|VISA|CREDIT|CLASSIC|U.S. BANK NATIONAL ASSOCIATION ND|UNITED STATES|US",
+      "has_name": true,
+      "has_address": true,
+      "has_zip": true,
+      "has_phone": true,
+      "has_mail": true,
+      "state": "IA",
+      "zip": "50226",
+      "card_type": "CREDIT",
+      "level": "CLASSIC",
+      "issuer": "U.S. BANK NATIONAL ASSOCIATION ND",
+      "country": {
+        "flag": "\ud83c\uddfa\ud83c\uddf8",
+        "flagClass": "fi-us",
+        "code": "US",
+        "name": "United States"
+      }
+    }
+  ],
+  "next_product_id": 36,
+  "owner_telegram_id": 7173346586,
+  "admin_telegram_ids": [
+    7173346586
+  ],
+  "site_admin_usernames": [
+    "nbtnate"
+  ],
+  "dice": {
+    "bets": [
+      {
+        "id": "a7774aa1-615",
+        "creator": "nbtnate2",
+        "creatorName": "nbtnate2",
+        "amount": 1.0,
+        "status": "waiting",
+        "opponent": null,
+        "opponentName": null
+      },
+      {
+        "id": "8db4ddb7-947",
+        "creator": "nbtnate2",
+        "creatorName": "nbtnate2",
+        "amount": 1.0,
+        "status": "waiting",
+        "opponent": null,
+        "opponentName": null
+      },
+      {
+        "id": "1d97ab15-fc2",
+        "creator": "nbtnate2",
+        "creatorName": "nbtnate2",
+        "amount": 22.0,
+        "status": "waiting",
+        "opponent": null,
+        "opponentName": null
+      }
+    ],
+    "history": []
+  },
+  "blackjack": {
+    "matches": [],
+    "history": []
+  },
+  "action_logs": [
+    {
+      "t": "2026-05-17T20:31:56Z",
+      "line": "topup accept nbtnate23 $100.00 id=cf6a263fb4014862",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-17T20:28:06Z",
+      "line": "topup accept nbtnate23 $50.00 id=cfff2bdee34a4da1",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-17T15:53:51Z",
+      "line": "checkout nbtnate2 $7.00 (1 item(s))"
+    },
+    {
+      "t": "2026-05-08T19:33:35Z",
+      "line": "plinko nbtnate2 bet $23.00 x0.0 payout $0.00"
+    },
+    {
+      "t": "2026-05-08T19:33:29Z",
+      "line": "plinko nbtnate2 bet $23.00 x0.0 payout $0.00"
+    },
+    {
+      "t": "2026-05-08T19:33:23Z",
+      "line": "plinko nbtnate2 bet $23.00 x1.0 payout $23.00"
+    },
+    {
+      "t": "2026-05-08T19:33:17Z",
+      "line": "plinko nbtnate2 bet $23.00 x1.4 payout $32.20"
+    },
+    {
+      "t": "2026-05-08T19:33:11Z",
+      "line": "plinko nbtnate2 bet $23.00 x1.0 payout $23.00"
+    },
+    {
+      "t": "2026-05-08T00:56:26Z",
+      "line": "/stock +34 @ $7.00 base=MONEY_BASE",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-08T00:29:48Z",
+      "line": "checkout nbtnate2 $1.00 (1 item(s))"
+    },
+    {
+      "t": "2026-05-08T00:26:15Z",
+      "line": "checkout nbtnate2 $1.00 (1 item(s))"
+    },
+    {
+      "t": "2026-05-08T00:18:22Z",
+      "line": "/leads \u00d730 @ $1.00 ids 2-31",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-08T00:10:19Z",
+      "line": "/leads id=1 James|Lascassas|Tennessee",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-08T00:03:22Z",
+      "line": "plinko nbtnate2 bet $5.00 x0.5 payout $2.50"
+    },
+    {
+      "t": "2026-05-07T23:58:28Z",
+      "line": "checkout nbtnate2 $15.00 (1 item(s))"
+    },
+    {
+      "t": "2026-05-07T23:57:36Z",
+      "line": "/stock added 36 card(s) @ $7.00",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-07T23:55:12Z",
+      "line": "/stock added 34 card(s) @ $15.00",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-07T23:54:28Z",
+      "line": "/stock added 34 card(s) @ $7.00",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-07T23:46:36Z",
+      "line": "plinko nbtnate2 bet $5.00 x0.5 payout $2.50"
+    },
+    {
+      "t": "2026-05-07T23:45:57Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.2 payout $6.00"
+    },
+    {
+      "t": "2026-05-07T23:45:27Z",
+      "line": "plinko nbtnate2 bet $5.00 x0.5 payout $2.50"
+    },
+    {
+      "t": "2026-05-07T23:45:17Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.0 payout $5.00"
+    },
+    {
+      "t": "2026-05-07T23:45:10Z",
+      "line": "plinko nbtnate2 bet $5.00 x0.5 payout $2.50"
+    },
+    {
+      "t": "2026-05-07T23:45:03Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.3 payout $6.50"
+    },
+    {
+      "t": "2026-05-07T23:44:57Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.2 payout $6.00"
+    },
+    {
+      "t": "2026-05-07T23:44:51Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.5 payout $7.50"
+    },
+    {
+      "t": "2026-05-07T23:44:45Z",
+      "line": "plinko nbtnate2 bet $5.00 x0.0 payout $0.00"
+    },
+    {
+      "t": "2026-05-07T23:43:15Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.6 payout $8.00"
+    },
+    {
+      "t": "2026-05-07T23:43:08Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.3 payout $6.50"
+    },
+    {
+      "t": "2026-05-07T23:21:08Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.0 payout $5.00"
+    },
+    {
+      "t": "2026-05-07T23:21:02Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.3 payout $6.50"
+    },
+    {
+      "t": "2026-05-07T23:17:02Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.3 payout $6.50"
+    },
+    {
+      "t": "2026-05-07T23:16:57Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.4 payout $7.00"
+    },
+    {
+      "t": "2026-05-07T23:16:51Z",
+      "line": "plinko nbtnate2 bet $5.00 x1.1 payout $5.50"
+    },
+    {
+      "t": "2026-05-07T23:09:41Z",
+      "line": "[ticket reply tg] id=tk20c3c507d762 staff=Xeeznk \u2192 nbtnate2",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-07T11:17:30Z",
+      "line": "topup accept nbtnate2 $50.00 id=bda1b230c08646bd",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-06T23:44:44Z",
+      "line": "/addbalance nbtnate2 +$25.00 -> $35.00",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-06T23:44:31Z",
+      "line": "/stock added 1 card(s) @ $25.00",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-06T23:35:37Z",
+      "line": "/stock added 1 card(s) @ $25.00",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-06T23:35:15Z",
+      "line": "checkout nbtnate2 $25.00 (1 item(s))"
+    },
+    {
+      "t": "2026-05-06T23:34:40Z",
+      "line": "/addbalance nbtnate2 +$25.00 -> $35.00",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-06T23:34:33Z",
+      "line": "/stock added 1 card(s) @ $25.00",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-06T23:28:21Z",
+      "line": "checkout nbtnate2 $15.00 (1 item(s))"
+    },
+    {
+      "t": "2026-05-06T23:28:01Z",
+      "line": "/addbalance nbtnate2 +$25.00 -> $25.00",
+      "uid": 7173346586
+    },
+    {
+      "t": "2026-05-06T23:26:43Z",
+      "line": "/stock added 1 card(s) @ $15.00",
+      "uid": 7173346586
+    }
+  ],
+  "purchase_log": [
+    {
+      "t": "2026-05-17T15:53:51Z",
+      "username": "nbtnate2",
+      "amount": 7.0,
+      "item": "1 item(s)",
+      "source": "checkout"
+    },
+    {
+      "t": "2026-05-08T00:29:48Z",
+      "username": "nbtnate2",
+      "amount": 1.0,
+      "item": "1 item(s)",
+      "source": "checkout"
+    },
+    {
+      "t": "2026-05-08T00:26:15Z",
+      "username": "nbtnate2",
+      "amount": 1.0,
+      "item": "1 item(s)",
+      "source": "checkout"
+    },
+    {
+      "t": "2026-05-07T23:58:28Z",
+      "username": "nbtnate2",
+      "amount": 15.0,
+      "item": "1 card(s)",
+      "source": "checkout"
+    },
+    {
+      "t": "2026-05-06T23:35:15Z",
+      "username": "nbtnate2",
+      "amount": 25.0,
+      "item": "1 card(s)",
+      "source": "checkout"
+    },
+    {
+      "t": "2026-05-06T23:28:21Z",
+      "username": "nbtnate2",
+      "amount": 15.0,
+      "item": "1 card(s)",
+      "source": "checkout"
+    }
+  ],
+  "lockdown": false,
+  "crypto_topups": {
+    "bda1b230c08646bd": {
+      "id": "bda1b230c08646bd",
+      "site_username": "nbtnate2",
+      "amount_usd": 50.0,
+      "method": "btc",
+      "confirmation_url": "https://mempool.space/tx/2ef4a65d3e389b9d452ae0cea9740574a118b7adf48da250f283ef2937a14373",
+      "client_ip": "127.0.0.1",
+      "status": "accepted",
+      "created_at": "2026-05-07T11:17:15Z",
+      "resolved_at": "2026-05-07T11:17:30Z",
+      "resolved_by_tg": 7173346586,
+      "notify_messages": [
+        {
+          "chat_id": 7173346586,
+          "message_id": 65
+        }
+      ]
+    },
+    "c25f0a73116548e7": {
+      "id": "c25f0a73116548e7",
+      "site_username": "nbtnate23",
+      "amount_usd": 20.0,
+      "method": "btc",
+      "confirmation_url": "https://mempool.space/tx/...",
+      "client_ip": "127.0.0.1",
+      "status": "pending",
+      "created_at": "2026-05-17T20:13:21Z",
+      "resolved_at": null,
+      "resolved_by_tg": null,
+      "notify_messages": [
+        {
+          "chat_id": 7173346586,
+          "message_id": 190
+        }
+      ]
+    },
+    "e86266a5f8c74483": {
+      "id": "e86266a5f8c74483",
+      "site_username": "nbtnate23",
+      "amount_usd": 50.0,
+      "method": "btc",
+      "confirmation_url": "https://mempool.space/tx/...",
+      "client_ip": "127.0.0.1",
+      "status": "pending",
+      "created_at": "2026-05-17T20:27:15Z",
+      "resolved_at": null,
+      "resolved_by_tg": null,
+      "notify_messages": []
+    },
+    "cfff2bdee34a4da1": {
+      "id": "cfff2bdee34a4da1",
+      "site_username": "nbtnate23",
+      "amount_usd": 50.0,
+      "method": "btc",
+      "confirmation_url": "https://mempool.space/tx/...",
+      "client_ip": "127.0.0.1",
+      "status": "accepted",
+      "created_at": "2026-05-17T20:27:37Z",
+      "resolved_at": "2026-05-17T20:28:06Z",
+      "resolved_by_tg": 7173346586,
+      "notify_messages": [
+        {
+          "chat_id": 7173346586,
+          "message_id": 3
+        }
+      ]
+    },
+    "cf6a263fb4014862": {
+      "id": "cf6a263fb4014862",
+      "site_username": "nbtnate23",
+      "amount_usd": 100.0,
+      "method": "btc",
+      "confirmation_url": "https://mempool.space/tx/...",
+      "client_ip": "127.0.0.1",
+      "status": "accepted",
+      "created_at": "2026-05-17T20:31:51Z",
+      "resolved_at": "2026-05-17T20:31:56Z",
+      "resolved_by_tg": 7173346586,
+      "notify_messages": [
+        {
+          "chat_id": 7173346586,
+          "message_id": 4
+        }
+      ]
+    }
+  },
+  "support_tickets": {
+    "tk20c3c507d762": {
+      "id": "tk20c3c507d762",
+      "site_username": "nbtnate2",
+      "subject": "help",
+      "reason": "Order Issue",
+      "status": "progressing",
+      "created_at": "2026-05-07T23:09:09Z",
+      "updated_at": "2026-05-07T23:09:41Z",
+      "messages": [
+        {
+          "sender": "nbtnate2",
+          "text": "need rep 3 out of 3 aint hit",
+          "time": "2026-05-07T23:09:09Z",
+          "is_admin": false
+        },
+        {
+          "sender": "tg:Xeeznk",
+          "text": "were going offer you a rep ...",
+          "time": "2026-05-07T23:09:41Z",
+          "is_admin": true
+        }
+      ]
+    }
+  },
+  "leads": [],
+  "next_lead_id": 1,
+  "sold_stock_daily": {},
+  "sold_stock_recent": [],
+  "admin_stock_bases": {},
+  "telegram_stock_sessions": {}
+}
